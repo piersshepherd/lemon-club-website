@@ -38,12 +38,20 @@ body {
     flex: auto;
     height: 85%;
     margin-top: 1rem;
+    @media (max-width: 480px) {
+      height: 60%;
+    }
   }
 
   &__links {
     display: flex;
     flex: auto;
     height: 15%;
+
+    @media (max-width: 480px) {
+      height: 40%;
+      flex-direction: column;
+    }
   }
 }
 

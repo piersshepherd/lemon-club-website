@@ -79,10 +79,21 @@ body {
   height: 85%;
   margin-top: 1rem;
 }
+@media (max-width: 480px) {
+  .content__video {
+    height: 60%;
+  }
+}
 .content__links {
   display: flex;
   flex: auto;
   height: 15%;
+}
+@media (max-width: 480px) {
+  .content__links {
+    height: 40%;
+    flex-direction: column;
+  }
 }
 
 .card {
